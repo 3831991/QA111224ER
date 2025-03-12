@@ -1,0 +1,60 @@
+body {
+    direction: rtl;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url('https://imageproxy.wolt.com/assets/673206fd9c9a8161a751ce76');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1 {
+    background: white;
+    width: 300px;
+    margin: auto;
+    padding: 16px 14px;
+    text-align: center;
+    margin-bottom: 10px;
+    border-radius: 64px;
+    background-color: #7f8d07;
+    color: white;
+}
+
+div {
+    width: 300px;
+    background-color: #e19b30;
+    padding: 16px 14px;
+    margin: auto;
+    border-radius: 32px;
+    min-height: 300px;
+}
+
+input, select {
+    display: block;
+    margin-bottom: 18px;
+    padding: 12px 10px;
+    font-size: 16px;
+    border: 0;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+input[type=checkbox], input[type=radio] {
+    display: initial;
+    width: initial;
+    margin-bottom: initial;
+}
+
+label {
+    display: block;
+}
+
+button {
+    background-color: #8BC34A;
+    color: white;
+    width: 100%;
+    font-size: 22px;
+    margin-top: 16px;
+    border: 0;
+    border-radius: 10px;
+    padding: 8px;
+}
