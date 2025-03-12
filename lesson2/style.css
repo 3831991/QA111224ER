@@ -1,0 +1,48 @@
+body {
+    /* כיוון האתר מימין לשמאל */
+    direction: rtl;
+    /* רקע לאתר */
+    background-color: #673ab7;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
+
+div {
+    /* רוחב */
+    width: 800px;
+    /* רקע */
+    background-color: white;
+    /* ריווח פנימי */
+    padding: 12px 40px;
+    /* ריווח חיצוני אוטומטי (לצורך מרכוז) */
+    margin: auto;
+    /* עיגול קצוות */
+    border-radius: 6px;
+}
+
+img {
+    width: 100%;
+    margin: 18px 0;
+}
+
+/* עיצוב הקישור */
+a {
+    font-size: 22px;
+    cursor: pointer;
+}
+
+/* עיצוב הקישור בריחוף עם העכבר */
+a:hover {
+    background-color: blue;
+    color: white;
+}
+
+/* עיצוב הקישור תוך כדי לחיצה */
+a:active {
+    background-color: #ff00f2;
+}
