@@ -1,6 +1,32 @@
+body {
+    /* כיוון האתר מימין לשמאל */
+    direction: rtl;
+    /* רקע לאתר */
+    background-color: #673ab7;
+    /* גופן */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    /* צבע טקסט */
+    color: white;
+    /* יישור טקסט */
+    text-align: center;
+    /* גודל הגופן */
+    font-size: 50px;
+}
+
 div {
+    /* רוחב */
     width: 300px;
+    /* רקע */
+    background-color: white;
+    /* ריווח פנימי */
     padding: 20px 30px;
+    /* ריווח חיצוני אוטומטי (לצורך מרכוז) */
+    margin: auto;
+    /* עיגול קצוות */
+    border-radius: 6px;
 }
 
 input, select {
